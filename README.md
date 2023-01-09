@@ -61,12 +61,11 @@ down. Added to 16, it gives a total of 24.
 
 Here is an example of a game where the player gets the maximum score:
 
-```cpp
-for (int i = 0; i < 12; ++i) {
-     game.roll(10);
-}
+```python
+for _ in range(12):
+    game.roll(10)
 
-assert(game.score() == 300);
+assert game.score() == 300
 ```
 
 In this example, the player gets 12 strikes in a row, the maximum number of
