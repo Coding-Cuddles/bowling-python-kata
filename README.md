@@ -1,6 +1,7 @@
 # Bowling Python Kata
 
-[![Run on Replit](https://replit.com/badge/github/Coding-Cuddles/bowling-python-kata)](https://replit.com/new/github/Coding-Cuddles/bowling-python-kata)
+[![CI](https://github.com/Coding-Cuddles/bowling-python-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/bowling-python-kata/actions/workflows/main.yml)
+[![Replit](https://replit.com/badge/github/Coding-Cuddles/bowling-python-kata)](https://replit.com/new/github/Coding-Cuddles/bowling-python-kata)
 
 ## Overview
 
