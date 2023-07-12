@@ -1,7 +1,7 @@
 # Bowling Python Kata
 
 [![CI](https://github.com/Coding-Cuddles/bowling-python-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/bowling-python-kata/actions/workflows/main.yml)
-[![Replit](https://replit.com/badge/github/Coding-Cuddles/bowling-python-kata)](https://replit.com/new/github/Coding-Cuddles/bowling-python-kata)
+[![Replit](https://replit.com/badge?caption=Try%20with%20Replit&variant=small)](https://replit.com/new/github/Coding-Cuddles/bowling-python-kata)
 
 ## Overview
 
@@ -23,7 +23,7 @@ player is awarded one more roll.
 
 A **strike** is when the player knocks down all the pins in one roll.  If the
 player gets a strike, their score for the frame is ten, plus the number of pins
-knocked down on their next two rolls. If a spare is thrown in the tenth frame,
+knocked down on their next two rolls. If a strike is thrown in the tenth frame,
 the player is awarded two more rolls.
 
 The final score is the total of all frame scores.
