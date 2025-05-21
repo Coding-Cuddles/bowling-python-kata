@@ -1,7 +1,6 @@
 # Bowling Python Kata
 
 [![CI](https://github.com/Coding-Cuddles/bowling-python-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/bowling-python-kata/actions/workflows/main.yml)
-[![Replit](https://replit.com/badge?caption=Try%20with%20Replit&variant=small)](https://replit.com/new/github/Coding-Cuddles/bowling-python-kata)
 
 ## Overview
 
@@ -16,12 +15,12 @@ If, after two rolls, at least one pin is still standing, it’s called an **open
 frame**. The score for the frame is the total number of pins knocked down,
 plus bonus points awarded for strikes or spares.
 
-A **spare** is when the player knocks down all the pins in two rolls.  If the
+A **spare** is when the player knocks down all the pins in two rolls. If the
 player gets a spare, the score for the frame is ten, plus the number of pins
 knocked down on their next roll. If a spare is thrown in the tenth frame, the
 player is awarded one more roll.
 
-A **strike** is when the player knocks down all the pins in one roll.  If the
+A **strike** is when the player knocks down all the pins in one roll. If the
 player gets a strike, their score for the frame is ten, plus the number of pins
 knocked down on their next two rolls. If a strike is thrown in the tenth frame,
 the player is awarded two more rolls.
@@ -31,7 +30,7 @@ The final score is the total of all frame scores.
 ## Instructions
 
 In this kata, you will write a class `BowlingGame` that calculates the score of
-a game of ten-pin bowling with two methods:
+a ten-pin bowling game with two methods:
 
 1. `roll(pins)` is called each time the player rolls a ball, with
    `pins` representing the number of pins knocked down in the current roll;
@@ -54,9 +53,9 @@ assert game.score() == 24
 ```
 
 In this example, the player got a spare, which is ten plus the next roll. The
-next roll (from the second frame) was a 6, so the value of the first frame is
-16. The second frame is worth exactly the number of pins the player knocked
-down. Added to 16, it gives a total of 24.
+next roll (from the second frame) was a 6, so the value of the first frame is 16.
+The second frame is worth exactly the number of pins the player knocked down.
+Added to 16, it gives a total of 24.
 
 ### Perfect game
 
@@ -70,24 +69,15 @@ assert game.score() == 300
 ```
 
 In this example, the player gets 12 strikes in a row, the maximum number of
-strikes possible in a game.  Each strike is worth 10 points, plus the pins were
+strikes possible in a game. Each strike is worth 10 points, plus the pins were
 knocked down on the next two rolls, resulting in 300 points.
 
+## Prerequisites
+
+- [Python 3.8+](https://www.python.org/)
+- [pytest](https://pytest.org)
+
 ## Usage
-
-You can import this project into [Replit](https://replit.com), and it will
-handle all dependencies automatically.
-
-### Prerequisites
-
-* [Python 3.8+](https://www.python.org/)
-* [pytest](https://pytest.org)
-
-### Run main
-
-```console
-make run
-```
 
 ### Run tests
 
