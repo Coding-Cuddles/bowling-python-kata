@@ -4,6 +4,9 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+Implement ten-pin bowling scoring in Python 3.11 or later with pytest. Setup is complete when the
+starter gutter-game test passes.
+
 ## Overview
 
 This kata complements [Clean Code: Fundamentals, Ep. 5 - Form](https://cleancoders.com/episode/clean-code-episode-5).
@@ -71,8 +74,8 @@ assert game.score() == 300
 ```
 
 In this example, the player gets 12 strikes in a row, the maximum number of
-strikes possible in a game. Each strike is worth 10 points, plus the pins were
-knocked down on the next two rolls, resulting in 300 points.
+strikes possible in a game. Each strike is worth 10 points, plus the number of
+pins knocked down on the next two rolls, resulting in 300 points.
 
 ## Prerequisites
 
